@@ -31,10 +31,3 @@ A função principal estabele conexão com o banco de dados, lê o arquivo xlxs 
 
 ![image](https://github.com/micvet/data-extraction-selenium-ibge/assets/86981990/1a42fb84-dffa-4544-8720-0ac8753e47be)
 
-
-**3. Criação de um dashboard no Power Bi com dados obtidos diretamente do BD postgresql**
-     
-
-![image](https://github.com/micvet/data-extraction-selenium-ibge/assets/86981990/6414a064-7a33-48b9-81b8-0373a5b1bd71)
-
-Em construção :construction_worker:
