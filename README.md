@@ -1,6 +1,8 @@
 # Projeto de Extração de Dados com Selenium
 Este projeto utiliza Python e o framework Selenium para extrair dados diretamente do site do IBGE.
 
+Para ambos os códigos, é necessário o download do arquivo "cidadesBRC.xlsx", no diretório arquivos. 
+
 **1. Extração e Salvamento em Arquivo Excel (extract-data-save-as-xlxs)**
 No diretório "extract-data-save-as-xlxs", você encontrará o código Python usado para extrair dados da página Cidades e Estados do IBGE. O código é organizado da seguinte forma:
 
