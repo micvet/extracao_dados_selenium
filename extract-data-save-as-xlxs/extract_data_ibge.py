@@ -79,9 +79,11 @@ def processData(row):
     return [uf, cidade, regiao] + dados
 
 def main():
+    
+    caminho_df= input("Insira o caminho para o arquivo cidadesBRC.xlsx: ")
+    destino_xlxs = input("Insira a pasta de destino do arquivo gerado, no formato pasta\pasta\ :")
 
-
-    dataframe = (r"cidadesBRC.xlsx")
+    dataframe = (f"{caminho_df}")
     dados_excel = pd.read_excel(dataframe)
 
     planilha = []
@@ -104,7 +106,7 @@ def main():
                                           "Receitas (R$ [2017] x 1000)", "Despesas (R$ [2017] x 1000)", "PIB per capta (R$ [2021])"])
     
     # Transformando o dataframe em arquivo xlsx.
-    df.to_excel(r"ibge_data.xlsx")
+    df.to_excel(f"{destino_xlxs}{"data_ibge"}.xlsx")
 
     # Fechando o WebDriver
     driver.quit()
