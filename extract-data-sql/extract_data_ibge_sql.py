@@ -102,7 +102,9 @@ def processData(row):
     return [uf_id, cidade] + dados
 
 def main():
-
+    
+    caminho_df= input("Insira o caminho para o arquivo cidadesBRC.xlsx: ")
+    
 
     db_params = {
     'host': 'localhost',
@@ -118,7 +120,7 @@ def main():
         print ("A conexão não pode ser estabelecida.")
 
 
-    dataframe = (r'cidadesBRC.xlsx')
+    dataframe = (f"{caminho_df}")
     dados_excel = pd.read_excel(dataframe)
 
     planilha = []
