@@ -22,41 +22,41 @@ driver.get("https://www.exemplo.com")
 
 * Localizar um elemento por ID:
 
-'''
+``` 
 elemento = driver.find_element_by_id("id_do_elemento")
-'''
+``` 
 
 * Localizar um elemento por nome:
 
-'''
+``` 
 elemento = driver.find_element_by_name("nome_do_elemento")
-'''
+``` 
 
 * Localizar um elemento por classe:
 
-'''
+``` 
 elemento = driver.find_element_by_class_name("nome_da_classe")
-'''
+``` 
 
 Localizar um elemento por XPath:
 
-'''
+``` 
 elemento = driver.find_element_by_xpath("caminho_para_o_elemento")
-'''
+``` 
 
 * Clicar em um elemento:
-'''
+``` 
 elemento.click()
-'''
+``` 
 
 * Preencher um campo de texto:
-'''
+``` 
 elemento.send_keys("texto_para_preencher")
-'''
+``` 
 
 * Esperar um elemento estar visível:
-'''
+``` 
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 elemento = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.ID,"id_do_elemento")))
-'''
+``` 
