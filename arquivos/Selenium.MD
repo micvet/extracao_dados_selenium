@@ -16,9 +16,9 @@ Exemplos de comandos utilizados para automaçao com Selenium, com a linguagem Py
 
 * Abrir uma página web:
 
-'''
+```
 driver.get("https://www.exemplo.com")
-''' 
+``` 
 
 * Localizar um elemento por ID:
 
